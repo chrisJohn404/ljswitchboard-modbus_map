@@ -25,12 +25,11 @@
         "lib"
     ],
     "dependencies": {
-        "ljmmm-parse": "^0.2.5",
-        "ljswitchboard-ljm_driver_constants": "^1.0.5"
+        "ljmmm-parse": "https://github.com/chrisJohn404/ljmmm-parse.git",
+        "ljswitchboard-ljm_driver_constants": "https://github.com/chrisJohn404/ljswitchboard-driver_constants.git"
     },
     "devDependencies": {
-        "nodeunit": "https://github.com/chrisJohn404/nodeunit.git",
-        "diff": ">=3.5.0"
+        "nodeunit": "https://github.com/chrisJohn404/nodeunit.git"
     },
     "scripts": {
         "test": "node ./node_modules/nodeunit/bin/nodeunit ./test/test.js"
